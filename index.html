@@ -125,8 +125,8 @@
                     exceptional taste sensation.</p>
                 <ul class="products-list">
                     <li class="products-item">
-                        <img src="./images/kisspng-milk-1.png" alt="">
-                        <h3 class="products -subtitle light">MILK CHOCOLATE</h3>
+                        <img src="./images/kisspng-milk-1.png" alt="piece of chocolate" />
+                        <h3 class="products-subtitle light">MILK CHOCOLATE</h3>
                         <div class="products-cover-block">
                             <p class="products-cover-title">MILK CHOCOLATE</p>
                             <p class="products-cover-text">
@@ -139,7 +139,7 @@
                         </div>
                     </li>
                     <li class="products-item">
-                        <img src="./images/kisspng-milk-2.png" alt="">
+                        <img src="./images/kisspng-milk-2.png" alt="bottle of milk" />
                         <h3 class="products-subtitle dark">MILK</h3>
                         <div class="products-cover-block">
                             <p class="products-cover-title">MILK</p>
@@ -153,7 +153,7 @@
                         </div>
                     </li>
                     <li class="products-item">
-                        <img src="./images/kisspng-milk-3.png" alt="">
+                        <img src="./images/kisspng-milk-3.png" alt="nuts" />
                         <h3 class="products-subtitle light">NUTS</h3>
                         <div class="products-cover-block">
                             <p class="products-cover-title">NUTS</p>
@@ -167,7 +167,7 @@
                         </div>
                     </li>
                     <li class="products-item">
-                        <img src="./images/kisspng-milk-4.png" alt="">
+                        <img src="./images/kisspng-milk-4.png" alt="semi-sweet chocolate" />
                         <h3 class="products-subtitle dark">SEMI - SWEET CHOCOLATE</h3>
                         <div class="products-cover-block">
                             <p class="products-cover-title">SEMI - SWEET CHOCOLATE</p>
@@ -298,9 +298,7 @@
                         class="footer-input" />
                     <button type="submit" class="footer-btn">
                         Subscribe
-                        <svg class="footer-soc-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-twitter"></use>
-                        </svg>
+
                     </button>
                 </form>
             </div>
@@ -308,31 +306,29 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-btn" data-modal-close><svg class="modal-btn-icon" width="28" height="28">
+            <button type="button" class="modal-btn" data-modal-close>
+                <svg class="modal-btn-icon" width="28" height="28">
                     <use href="./images/icons.svg#icon-close"></use>
-                </svg></button>
+                </svg>
+            </button>
             <p class="modal-title section-title">
                 LEAVE A REVIEW ABOUT <span>OUR CHOCOLATE</span>
             </p>
             <form class="modal-form">
                 <div class="modal-field">
-                    <label for="user-name" class="modal-label">Name</label>
                     <div class="input-wrap">
-                        <input type="text" name="user-name" class="modal-input" required placeholder="Степан"
-                            maxlength="2" />
+                        <input type="text" name="user-name" id="user-name" class="modal-input" required
+                            placeholder="Name" minlength="2" />
                         <svg class="input-icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-user"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="modal-field">
-                    <label for="user-email" class="modal-label">Email</label>
-                    <input type="email" name="user-email" id="user-email" class="modal-input"
-                        placeholder="bandera@gmail.com" />
+                    <input type="email" name="user-email" id="user-email" class="modal-input" placeholder="Email" />
                 </div>
                 <div class="modal-field">
-                    <input type="tel" name="user-tel" class="modal-input" required value="+380"
-                        placeholder="+380 (96) 111-11-11" />
+                    <input type="tel" name="user-tel" class="modal-input" placeholder="Phone number" />
                 </div>
                 <div class="modal-field">
                     <textarea name="modal-text" placeholder="Enter text" class="modal-textarea"></textarea>

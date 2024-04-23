@@ -33,9 +33,25 @@ ul {
 img {
   display: block;
 }
+.link {
+  text-decoration: none;
+}
 
 .list {
   list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
@@ -603,14 +619,17 @@ img {
   opacity: 0;
   pointer-events: none;
 }
+
 .modal-btn-icon {
   stroke: #111111;
 }
+
 .modal-title {
   text-align: left;
   max-width: 298px;
   margin-bottom: 40px;
 }
+
 .modal-field {
   margin-bottom: 18px;
 }
@@ -644,13 +663,6 @@ img {
   line-height: 1.22;
   letter-spacing: -0.02em;
   color: rgba(64, 64, 64, 0.3);
-}
-
-.modal-label {
-  font-size: 14px;
-  color: #4c4c4c;
-  margin-bottom: 5px;
-  display: inline-block;
 }
 
 .input-wrap {
